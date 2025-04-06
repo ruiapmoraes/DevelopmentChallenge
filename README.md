@@ -9,7 +9,7 @@ Este repositório contém a refatoração do desafio proposto para gerar relató
 
 ## 🛠️ Tecnologias
 
-- C# (.NET Framework 4.6.2)
+- C# (.NET Framework 4.8)
 - NUnit 3.13.3
 - NUnit3TestAdapter 4.5.0
 - Microsoft.NET.Test.Sdk 17.8.0
