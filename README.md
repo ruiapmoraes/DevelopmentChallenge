@@ -19,12 +19,12 @@ Este repositório contém a refatoração do desafio proposto para gerar relató
 
 ### Pré-requisitos
 
-- Visual Studio 2019 ou 2022 instalado
-- .NET Framework 4.6.2
+- Visual Studio 2022 instalado
+- .NET Framework 4.8
 - NUnit Test Adapter instalado via gerenciador de extensões (caso não use `PackageReference`)
 
 ### Passos
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/ruiapmoraes/developmentchallenge.git
