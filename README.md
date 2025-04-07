@@ -130,4 +130,5 @@ DevelopmentChallenge/
 
 ## 👨‍💻 Autor
 
-Desenvolvido para fins de avaliação técnica, com foco em boas práticas de código, testes, organização e clareza.
+Desenvolvido para fins de avaliação técnica, com foco em boas práticas de código, testes, organização e clareza por Rui Moraes – Avaliação Técnica .NET 2025
+
