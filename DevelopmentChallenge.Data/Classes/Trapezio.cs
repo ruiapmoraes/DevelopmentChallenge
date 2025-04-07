@@ -20,6 +20,11 @@ namespace DevelopmentChallenge.Data.Classes
         }
         public decimal CalcularArea() => ((_baseMaior + _baseMenor) * _altura) / 2;
         public decimal CalcularPerimetro() => _baseMaior + _baseMenor + _lado1 + _lado2;
-        public string Nome(int idioma, int quantidade) => Localizacao.ObterNomeForma(Forma.Trapezio, idioma, quantidade);
+        public string Nome(int idioma, int quantidade)
+        {
+            var cultura = IdiomaHelper.ObterCulture(idioma);
+            var chave = quantidade == 1 ? "Trapezoid_Singular" : "Trapezoid_Plural";
+            return Resources.Strings.ResourceManager.GetString(chave, cultura);
+        }
     }
 }

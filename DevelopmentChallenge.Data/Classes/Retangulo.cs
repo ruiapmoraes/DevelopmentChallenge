@@ -22,6 +22,11 @@ namespace DevelopmentChallenge.Data.Classes
 
         public decimal CalcularPerimetro() => 2 * (_largura + _altura);
 
-        public string Nome(int idioma, int quantidade) => Localizacao.ObterNomeForma(Forma.Retangulo, idioma, quantidade);
+        public string Nome(int idioma, int quantidade)
+        {
+            var cultura = IdiomaHelper.ObterCulture(idioma);
+            var chave = quantidade == 1 ? "Rectangle_Singular" : "Rectangle_Plural";
+            return Resources.Strings.ResourceManager.GetString(chave, cultura);
+        }
     }
 }

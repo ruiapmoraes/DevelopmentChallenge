@@ -13,6 +13,11 @@ namespace DevelopmentChallenge.Data.Classes
         public Circulo(decimal diametro) => _diametro = diametro;
         public decimal CalcularArea() => (decimal)Math.PI * (_diametro / 2) * (_diametro / 2);
         public decimal CalcularPerimetro() => (decimal)Math.PI * _diametro;
-        public string Nome(int idioma, int quantidade) => Localizacao.ObterNomeForma(Forma.Circulo, idioma, quantidade);
+        public string Nome(int idioma, int quantidade)
+        {
+            var cultura = IdiomaHelper.ObterCulture(idioma);
+            var chave = quantidade == 1 ? "Circle_Singular" : "Circle_Plural";
+            return Resources.Strings.ResourceManager.GetString(chave, cultura);
+        }
     }
 }
