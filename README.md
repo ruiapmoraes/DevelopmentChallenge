@@ -127,6 +127,13 @@ DevelopmentChallenge/
 - ✅ Testes com saída descritiva via `TestContext.WriteLine`
 
 ---
+## 🧪 Testes Automatizados
+
+Todos os testes foram aprovados com sucesso:
+![image](https://github.com/user-attachments/assets/5e5d73e5-e1d5-433f-8d61-6e636faf20e4)
+
+
+---
 
 ## 👨‍💻 Autor
 
