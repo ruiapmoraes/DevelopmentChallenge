@@ -122,12 +122,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DevelopmentChallenge.Data\DevelopmentChallenge.Data.csproj">
-      <Project>{b21a8f24-c7e0-4e69-b1d7-b424237dc216}</Project>
-      <Name>DevelopmentChallenge.Data</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
